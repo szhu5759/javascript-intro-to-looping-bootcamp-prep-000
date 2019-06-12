@@ -7,7 +7,6 @@ function doWhileLoop(num) {
   do {
     console.log(`${i}I run once regardless.`)
   }  while (incrementVariable() <= num)
-  return 0
 }
 
 console.log(doWhileLoop(10))
